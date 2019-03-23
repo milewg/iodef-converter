@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- A list of C2 domains associated with a campaign -->
+<IODEF-Document xmlns="urn:ietf:params:xml:ns:iodef-2.0" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                version="2.00" 
+                xml:lang="en" 
+                xsi:schemaLocation="http://www.iana.org/assignments/xml-registry/schema/        iodef-2.0.xsd">
+    <Incident purpose="watch" restriction="green">
+        <IncidentID name="csirt.example.com">897923</IncidentID>
+        <RelatedActivity>
+            <ThreatActor>
+                <ThreatActorID>TA-12-AGGRESSIVE-BUTTERFLY</ThreatActorID>
+                <Description>Aggressive Butterfly</Description>
+            </ThreatActor>
+            <Campaign>
+                <CampaignID>C-2015-59405</CampaignID>
+                <Description>Orange Giraffe</Description>
+            </Campaign>
+        </RelatedActivity>
+        <GenerationTime>2015-10-02T11:18:00-05:00</GenerationTime>
+        <Description>Summarizes the Indicators of Compromise for the Orange Giraffe campaign of the Aggressive Butterfly crime gang.</Description>
+        <Assessment>
+            <BusinessImpact type="breach-proprietary" />
+        </Assessment>
+        <Contact type="organization" role="creator">
+            <ContactName>CSIRT for example.com</ContactName>
+            <Email>
+                <EmailTo>contact@csirt.example.com</EmailTo>
+            </Email>
+        </Contact>
+        <IndicatorData>
+            <Indicator>
+                <IndicatorID name="csirt.example.com" version="1">G90823490</IndicatorID>
+                <Description>C2 domains</Description>
+                <StartTime>2014-12-02T11:18:00-05:00</StartTime>
+                <Observable>
+                    <BulkObservable type="fqdn">
+                        <BulkObservableList>kj290023j09r34.example.com 09ijk23jfj0k8.example.net klknjwfjiowjefr923.example.org oimireik79msd.example.org</BulkObservableList>
+                    </BulkObservable>
+                </Observable>
+            </Indicator>
+        </IndicatorData>
+    </Incident>
+</IODEF-Document>

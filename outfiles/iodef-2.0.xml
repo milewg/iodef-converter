@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IODEF-Document xmlns="urn:ietf:params:xml:ns:iodef-2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.00" xml:lang="en">
+    <Incident xmlns="urn:ietf:params:xml:ns:iodef-2.0" purpose="watch" restriction="green">
+        <IncidentID xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="csirt.example.com">897923</IncidentID>
+        <RelatedActivity xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+            <ThreatActor xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <ThreatActorID xmlns="urn:ietf:params:xml:ns:iodef-2.0">TA-12-AGGRESSIVE-BUTTERFLY</ThreatActorID>
+                <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">Aggressive Butterfly</Description>
+            </ThreatActor>
+            <Campaign xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <CampaignID xmlns="urn:ietf:params:xml:ns:iodef-2.0">C-2015-59405</CampaignID>
+                <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">Orange Giraffe</Description>
+            </Campaign>
+        </RelatedActivity>
+        <GenerationTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</GenerationTime>
+        <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">Summarizes the Indicators of Compromise for the Orange Giraffe campaign of the Aggressive Butterfly crime gang.</Description>
+        <Assessment xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+            <BusinessImpact xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="breach-proprietary"></BusinessImpact>
+        </Assessment>
+        <Contact xmlns="urn:ietf:params:xml:ns:iodef-2.0" role="creator" type="organization">
+            <ContactName xmlns="urn:ietf:params:xml:ns:iodef-2.0">CSIRT for example.com</ContactName>
+            <Email xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <EmailTo xmlns="urn:ietf:params:xml:ns:iodef-2.0">contact@csirt.example.com</EmailTo>
+            </Email>
+        </Contact>
+        <IndicatorData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+            <Indicator xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <IndicatorID xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="csirt.example.com" version="1">G90823490</IndicatorID>
+                <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">C2 domains</Description>
+                <StartTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2014-12-02T11:18:00-05:00</StartTime>
+                <Observable xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                    <BulkObservable xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="ipv6-addr">
+                        <BulkObservableList xmlns="urn:ietf:params:xml:ns:iodef-2.0">kj290023j09r34.example.com</BulkObservableList>
+                    </BulkObservable>
+                </Observable>
+            </Indicator>
+        </IndicatorData>
+    </Incident>
+</IODEF-Document>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IODEF-Document xmlns="urn:ietf:params:xml:ns:iodef-2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.00" xml:lang="en">
+    <Incident xmlns="urn:ietf:params:xml:ns:iodef-2.0" purpose="reporting" restriction="private">
+        <IncidentID xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="csirt.example.com">492382</IncidentID>
+        <GenerationTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-07-18T09:00:00-05:00</GenerationTime>
+        <Contact xmlns="urn:ietf:params:xml:ns:iodef-2.0" role="creator" type="organization">
+            <Email xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <EmailTo xmlns="urn:ietf:params:xml:ns:iodef-2.0">contact@csirt.example.com</EmailTo>
+            </Email>
+        </Contact>
+    </Incident>
+</IODEF-Document>

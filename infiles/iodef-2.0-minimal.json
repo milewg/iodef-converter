@@ -1,0 +1,20 @@
+{ 
+     "version": "2.00",
+     "lang": "en",
+     "Incident": [{      
+         "purpose": "reporting",
+         "restriction": "private",
+         "IncidentID": {
+           "id": "492382",
+           "name": "csirt.example.com"
+         },
+         "GenerationTime": "2015-07-18T09:00:00-05:00",
+         "Contact": [{
+             "type": "organization",
+             "role": "creator",
+             "Email": [{
+               "EmailTo": "contact@csirt.example.com"
+             }]
+         }]
+     }]
+}

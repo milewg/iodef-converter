@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IODEF-Document xmlns="urn:ietf:params:xml:ns:iodef-2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.00" xml:lang="en">
+    <Incident xmlns="urn:ietf:params:xml:ns:iodef-2.0" purpose="watch" restriction="green">
+        <IncidentID xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="csirt.example.com">897923</IncidentID>
+        <RelatedActivity xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+            <ThreatActor xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <ThreatActorID xmlns="urn:ietf:params:xml:ns:iodef-2.0">TA-12-AGGRESSIVE-BUTTERFLY</ThreatActorID>
+                <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">Aggressive Butterfly</Description>
+            </ThreatActor>
+            <Campaign xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <CampaignID xmlns="urn:ietf:params:xml:ns:iodef-2.0">C-2015-59405</CampaignID>
+                <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">Orange Giraffe</Description>
+            </Campaign>
+        </RelatedActivity>
+        <GenerationTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</GenerationTime>
+        <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">Summarizes the Indicators of Compromise for the Orange Giraffe campaign of the Aggressive Butterfly crime gang.</Description>
+        <Assessment xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+            <BusinessImpact xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="breach-proprietary"></BusinessImpact>
+        </Assessment>
+        <Contact xmlns="urn:ietf:params:xml:ns:iodef-2.0" role="creator" type="organization">
+            <ContactName xmlns="urn:ietf:params:xml:ns:iodef-2.0">CSIRT for example.com</ContactName>
+            <Email xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <EmailTo xmlns="urn:ietf:params:xml:ns:iodef-2.0">contact@csirt.example.com</EmailTo>
+            </Email>
+            <Contact xmlns="urn:ietf:params:xml:ns:iodef-2.0" role="creator" type="person" restriction="default">
+                <ContactName xmlns="urn:ietf:params:xml:ns:iodef-2.0">toe</ContactName>
+                <ContactName xmlns="urn:ietf:params:xml:ns:iodef-2.0" xml:lang="en" translation-id="tac">tic</ContactName>
+                <RegistryHandle xmlns="urn:ietf:params:xml:ns:iodef-2.0" registry="apnic" ext-registry="tic">toe</RegistryHandle>
+                <PostalAddress xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="mailing" ext-type="toe">
+                    <PAddress xmlns="urn:ietf:params:xml:ns:iodef-2.0" xml:lang="en" translation-id="tac">tic</PAddress>
+                </PostalAddress>
+                <Email xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="hotline" ext-type="toe">
+                    <EmailTo xmlns="urn:ietf:params:xml:ns:iodef-2.0">tic</EmailTo>
+                </Email>
+                <Telephone xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="ext-value" ext-type="tic">
+                    <TelephoneNumber xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</TelephoneNumber>
+                </Telephone>
+                <Timezone xmlns="urn:ietf:params:xml:ns:iodef-2.0">-01:49</Timezone>
+            </Contact>
+        </Contact>
+        <EventData xmlns="urn:ietf:params:xml:ns:iodef-2.0" restriction="white" observable-id="wrt">
+            <StartTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</StartTime>
+            <EndTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</EndTime>
+            <ReportTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</ReportTime>
+            <Flow xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <System xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="ext-value" interface="toe" spoofed="no" virtual="yes">
+                    <Node xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                        <DomainData xmlns="urn:ietf:params:xml:ns:iodef-2.0" system-status="ext-value" domain-status="transferPending" observable-id="GKMVXQ">
+                            <Name xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</Name>
+                            <DateDomainWasChecked xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</DateDomainWasChecked>
+                            <RegistrationDate xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</RegistrationDate>
+                            <ExpirationDate xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</ExpirationDate>
+                            <RelatedDNS xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="tic" dtype="winreg" meaning="toe" formatid="tic" restriction="amber" observable-id="Hdffdf">toe</RelatedDNS>
+                            <Nameservers xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                <Server xmlns="urn:ietf:params:xml:ns:iodef-2.0">toe</Server>
+                                <Address xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="e-mail" vlan-name="toe" vlan-num="2048" observable-id="gz.">tic</Address>
+                            </Nameservers>
+                        </DomainData>
+                        <Address xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="ipv4-net" vlan-name="toe" vlan-num="854" observable-id="jxaasd">tic</Address>
+                        <PostalAddress xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="mailing">
+                            <PAddress xmlns="urn:ietf:params:xml:ns:iodef-2.0" xml:lang="en" translation-id="tic">toe</PAddress>
+                        </PostalAddress>
+                        <Location xmlns="urn:ietf:params:xml:ns:iodef-2.0" xml:lang="en" translation-id="toe">tac</Location>
+                    </Node>
+                    <NodeRole xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="application"></NodeRole>
+                    <Service xmlns="urn:ietf:params:xml:ns:iodef-2.0" ip-protocol="2711" observable-id="Xdf">
+                        <ServiceName xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <IANAService xmlns="urn:ietf:params:xml:ns:iodef-2.0">tic</IANAService>
+                        </ServiceName>
+                        <Port xmlns="urn:ietf:params:xml:ns:iodef-2.0">3250</Port>
+                        <Portlist xmlns="urn:ietf:params:xml:ns:iodef-2.0">995989-8492,947555-01,463-06451</Portlist>
+                        <ProtoCode xmlns="urn:ietf:params:xml:ns:iodef-2.0">47</ProtoCode>
+                        <ProtoType xmlns="urn:ietf:params:xml:ns:iodef-2.0">289</ProtoType>
+                        <ProtoField xmlns="urn:ietf:params:xml:ns:iodef-2.0">-629</ProtoField>
+                        <EmailData xmlns="urn:ietf:params:xml:ns:iodef-2.0" observable-id="wRetyhy">
+                            <EmailTo xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</EmailTo>
+                            <EmailTo xmlns="urn:ietf:params:xml:ns:iodef-2.0">toe</EmailTo>
+                            <EmailFrom xmlns="urn:ietf:params:xml:ns:iodef-2.0">toe</EmailFrom>
+                            <EmailBody xmlns="urn:ietf:params:xml:ns:iodef-2.0">tic</EmailBody>
+                            <EmailMessage xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</EmailMessage>
+                            <SignatureData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="fevhjhkk"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#" Id="ZjrtrC7">
+                                        <CanonicalizationMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://1klb5_.aBn"></CanonicalizationMethod>
+                                        <SignatureMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://7oL.Sroo">
+                                            <HMACOutputLength xmlns="http://www.w3.org/2000/09/xmldsig#">2200</HMACOutputLength>tac
+                                        </SignatureMethod>
+                                        <Reference xmlns="http://www.w3.org/2000/09/xmldsig#" Id="ecbbf" URI="https://69De.aIno5">
+                                            <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://gNqT.Q1n9"></DigestMethod>
+                                            <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</DigestValue>
+                                        </Reference>
+                                        <Reference xmlns="http://www.w3.org/2000/09/xmldsig#" URI="https://h_tI.wFmxWk">
+                                            <Transforms xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                                <Transform xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://1lZ.px"></Transform>
+                                                <Transform xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://02YPU.XLxTqy">toe</Transform>
+                                            </Transforms>
+                                            <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://v6L.dfHg"></DigestMethod>
+                                            <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</DigestValue>
+                                        </Reference>
+                                    </SignedInfo>
+                                    <SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</SignatureValue>
+                                    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                        <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                            <X509CRL xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</X509CRL>
+                                        </X509Data>
+                                        <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                            <X509SubjectName xmlns="http://www.w3.org/2000/09/xmldsig#">tic</X509SubjectName>
+                                        </X509Data>
+                                        <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                            <X509Certificate xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</X509Certificate>
+                                        </X509Data>
+                                    </KeyInfo>
+                                    <Object xmlns="http://www.w3.org/2000/09/xmldsig#" Encoding="https://y6CgN_.TW9s"></Object>
+                                    <Object xmlns="http://www.w3.org/2000/09/xmldsig#" Id="dasaaa" Encoding="https://3wiF.F4a">tac</Object></Signature>
+                            </SignatureData>
+                        </EmailData>
+                    </Service>
+                    <OperatingSystem xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                        <SoftwareReference xmlns="urn:ietf:params:xml:ns:iodef-2.0" spec-name="swid" dtype="real">
+                            <Value xmlns="urn:ietf:params:xml:ns:iodef-2.0">toe</Value>
+                        </SoftwareReference>
+                        <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://UxROkA.10Zqu</URL>
+                        <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://kfng.m5_cUp</URL>
+                    </OperatingSystem>
+                    <AssetID xmlns="urn:ietf:params:xml:ns:iodef-2.0">toe</AssetID>
+                    <AssetID xmlns="urn:ietf:params:xml:ns:iodef-2.0">tic</AssetID>
+                </System>
+            </Flow>
+            <Expectation xmlns="urn:ietf:params:xml:ns:iodef-2.0" action="training" ext-action="tic" severity="high" restriction="white" ext-restriction="tac" observable-id="Yjevnnn">
+                <StartTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</StartTime>
+                <EndTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</EndTime>
+            </Expectation>
+            <Record xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <RecordData xmlns="urn:ietf:params:xml:ns:iodef-2.0" observable-id="nU7gozass">
+                    <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0" xml:lang="en" translation-id="tic">toe</Description>
+                    <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">This is description</Description>
+                    <Application xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                        <SoftwareReference xmlns="urn:ietf:params:xml:ns:iodef-2.0" spec-name="swid" ext-spec-name="toe" dtype="xml" ext-dtype="tic">
+                            <Value xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</Value>
+                        </SoftwareReference>
+                        <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://md3LW.XFX</URL>
+                        <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://ynxlm.3Q6l</URL>
+                    </Application>
+                    <RecordItem xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="toe" dtype="packet" meaning="tac" formatid="toe" restriction="need-to-know" observable-id="hqqqqq">tac</RecordItem>
+                    <FileData xmlns="urn:ietf:params:xml:ns:iodef-2.0" restriction="need-to-know">
+                        <File xmlns="urn:ietf:params:xml:ns:iodef-2.0" observable-id="MZsass">
+                            <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://17H.6la</URL>
+                            <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://VG.DZ8zii</URL>
+                            <SignatureData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="WD7Dtsdds"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#" Id="Cvb">
+                                        <CanonicalizationMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://rN7.P8jV">tac</CanonicalizationMethod>
+                                        <SignatureMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://lUzp1.bG">
+                                            <HMACOutputLength xmlns="http://www.w3.org/2000/09/xmldsig#">-614</HMACOutputLength>toe
+                                        </SignatureMethod>
+                                        <Reference xmlns="http://www.w3.org/2000/09/xmldsig#" URI="https://V0oR.Hlow">
+                                            <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://v.UQPdei">tic</DigestMethod>
+                                            <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</DigestValue>
+                                        </Reference>
+                                        <Reference xmlns="http://www.w3.org/2000/09/xmldsig#" URI="https://hkGN.KB">
+                                            <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://YTnu.O1Pe"></DigestMethod>
+                                            <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</DigestValue>
+                                        </Reference>
+                                    </SignedInfo>
+                                    <SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</SignatureValue>
+                                    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                        <MgmtData xmlns="http://www.w3.org/2000/09/xmldsig#">tac</MgmtData>
+                                    </KeyInfo>
+                                    <Object xmlns="http://www.w3.org/2000/09/xmldsig#" Id="EFUdsdsdsJ"></Object>
+                                    <Object xmlns="http://www.w3.org/2000/09/xmldsig#" MimeType="tac">tic</Object></Signature>
+                            </SignatureData>
+                            <AssociatedSoftware xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                <SoftwareReference xmlns="urn:ietf:params:xml:ns:iodef-2.0" spec-name="swid" dtype="bytes">
+                                    <Value xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</Value>
+                                </SoftwareReference>
+                                <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://qG.ICxLD</URL>
+                                <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://a.Zvm</URL>
+                            </AssociatedSoftware>
+                        </File>
+                    </FileData>
+                    <CertificateData xmlns="urn:ietf:params:xml:ns:iodef-2.0" ext-restriction="toe" observable-id="LsdsdnX">
+                        <Certificate xmlns="urn:ietf:params:xml:ns:iodef-2.0" observable-id="Z29KdsdsD">
+                            <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#"><X509SubjectName xmlns="http://www.w3.org/2000/09/xmldsig#">tic</X509SubjectName></X509Data>
+                        </Certificate>
+                    </CertificateData>
+                    <CertificateData xmlns="urn:ietf:params:xml:ns:iodef-2.0" ext-restriction="tac">
+                        <Certificate xmlns="urn:ietf:params:xml:ns:iodef-2.0" observable-id="li">
+                            <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#"><X509CRL xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</X509CRL>
+                                <X509IssuerSerial xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                    <X509IssuerName xmlns="http://www.w3.org/2000/09/xmldsig#">toe</X509IssuerName>
+                                    <X509SerialNumber xmlns="http://www.w3.org/2000/09/xmldsig#">-41</X509SerialNumber>
+                                </X509IssuerSerial>
+                                <X509Certificate xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</X509Certificate></X509Data>
+                        </Certificate>
+                    </CertificateData>
+                </RecordData>
+            </Record>
+            <EventData xmlns="urn:ietf:params:xml:ns:iodef-2.0" restriction="white" observable-id="wqw">
+                <StartTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</StartTime>
+                <EndTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</EndTime>
+                <ReportTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</ReportTime>
+                <Flow xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                    <System xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="ext-value" interface="toe" spoofed="no" virtual="yes" ownership="unknown" restriction="default" observable-id="Cbn">
+                        <Node xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <Address xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="ipv4-net" vlan-name="toe" vlan-num="854" observable-id="jxadf">tic</Address>
+                            <PostalAddress xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="mailing">
+                                <PAddress xmlns="urn:ietf:params:xml:ns:iodef-2.0" xml:lang="en" translation-id="tic">toe</PAddress>
+                            </PostalAddress>
+                        </Node>
+                        <NodeRole xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="application"></NodeRole>
+                        <Service xmlns="urn:ietf:params:xml:ns:iodef-2.0" ip-protocol="2711" observable-id="Xass">
+                            <ServiceName xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                <IANAService xmlns="urn:ietf:params:xml:ns:iodef-2.0">tic</IANAService>
+                            </ServiceName>
+                            <Port xmlns="urn:ietf:params:xml:ns:iodef-2.0">3250</Port>
+                            <Portlist xmlns="urn:ietf:params:xml:ns:iodef-2.0">995989-8492,947555-01,463-06451</Portlist>
+                            <ProtoCode xmlns="urn:ietf:params:xml:ns:iodef-2.0">47</ProtoCode>
+                            <ProtoType xmlns="urn:ietf:params:xml:ns:iodef-2.0">289</ProtoType>
+                            <ProtoField xmlns="urn:ietf:params:xml:ns:iodef-2.0">-629</ProtoField>
+                            <ApplicationHeader xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                <ApplicationHeaderField xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="toe" dtype="url" meaning="tac" formatid="toe" restriction="green" observable-id="vVC">tac</ApplicationHeaderField>
+                            </ApplicationHeader>
+                            <EmailData xmlns="urn:ietf:params:xml:ns:iodef-2.0" observable-id="wRyjh">
+                                <EmailTo xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</EmailTo>
+                                <EmailTo xmlns="urn:ietf:params:xml:ns:iodef-2.0">toe</EmailTo>
+                                <EmailFrom xmlns="urn:ietf:params:xml:ns:iodef-2.0">toe</EmailFrom>
+                                <EmailBody xmlns="urn:ietf:params:xml:ns:iodef-2.0">tic</EmailBody>
+                                <EmailMessage xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</EmailMessage>
+                                <HashData xmlns="urn:ietf:params:xml:ns:iodef-2.0" scope="file-pe-resource">
+                                    <Hash xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                        <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.nict.go.jp">tic</DigestMethod>
+                                        <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</DigestValue>
+                                        <CanonicalizationMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.nict.go.jp">tac</CanonicalizationMethod>
+                                    </Hash>
+                                    <Hash xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                        <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.nict.go.jp">tic</DigestMethod>
+                                        <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</DigestValue>
+                                    </Hash>
+                                    <FuzzyHash xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                        <FuzzyHashValue xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="toe" dtype="csv" meaning="tac" formatid="toe" restriction="white" observable-id="ZkPc">tac</FuzzyHashValue>
+                                        <Application xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                            <SoftwareReference xmlns="urn:ietf:params:xml:ns:iodef-2.0" spec-name="swid" ext-spec-name="toe" dtype="string" ext-dtype="tic">
+                                                <Value xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</Value>
+                                            </SoftwareReference>
+                                            <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://k.V</URL>
+                                            <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://sx.W</URL>
+                                        </Application>
+                                    </FuzzyHash>
+                                </HashData>
+                                <SignatureData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="fevghgj"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#" Id="ZjvbbC7">
+                                            <CanonicalizationMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://1klb5_.aBn"></CanonicalizationMethod>
+                                            <SignatureMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://7oL.Sroo">
+                                                <HMACOutputLength xmlns="http://www.w3.org/2000/09/xmldsig#">2200</HMACOutputLength>tac
+                                            </SignatureMethod>
+                                            <Reference xmlns="http://www.w3.org/2000/09/xmldsig#" Id="exzxx" URI="https://69De.aIno5">
+                                                <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://gNqT.Q1n9"></DigestMethod>
+                                                <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</DigestValue>
+                                            </Reference>
+                                            <Reference xmlns="http://www.w3.org/2000/09/xmldsig#" URI="https://h_tI.wFmxWk">
+                                                <Transforms xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                                    <Transform xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://1lZ.px"></Transform>
+                                                    <Transform xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://02YPU.XLxTqy">toe</Transform>
+                                                    <Transform xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://gdK.sXEL">
+                                                        <XPath xmlns="http://www.w3.org/2000/09/xmldsig#">tic</XPath>
+                                                        <XPath xmlns="http://www.w3.org/2000/09/xmldsig#">tac</XPath>
+                                                    </Transform>
+                                                    <Transform xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://yuOX3._lvfKo">tac</Transform>
+                                                </Transforms>
+                                                <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://v6L.dfHg"></DigestMethod>
+                                                <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</DigestValue>
+                                            </Reference>
+                                        </SignedInfo>
+                                        <SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</SignatureValue>
+                                        <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                            <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                                <X509SKI xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</X509SKI>
+                                            </X509Data>
+                                            <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                                <X509CRL xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</X509CRL>
+                                            </X509Data>
+                                            <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                                <X509SubjectName xmlns="http://www.w3.org/2000/09/xmldsig#">tic</X509SubjectName>
+                                            </X509Data>
+                                            <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                                <X509Certificate xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</X509Certificate>
+                                            </X509Data>
+                                        </KeyInfo>
+                                        <Object xmlns="http://www.w3.org/2000/09/xmldsig#" Encoding="https://y6CgN_.TW9s"></Object>
+                                        <Object xmlns="http://www.w3.org/2000/09/xmldsig#" Id="ddsfd" Encoding="https://3wiF.F4a">tac</Object></Signature>
+                                </SignatureData>
+                            </EmailData>
+                        </Service>
+                        <OperatingSystem xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <SoftwareReference xmlns="urn:ietf:params:xml:ns:iodef-2.0" spec-name="swid" ext-spec-name="tic" dtype="real" ext-dtype="tac">
+                                <Value xmlns="urn:ietf:params:xml:ns:iodef-2.0">toe</Value>
+                            </SoftwareReference>
+                            <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://UxROkA.10Zqu</URL>
+                            <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://kfng.m5_cUp</URL>
+                        </OperatingSystem>
+                        <AssetID xmlns="urn:ietf:params:xml:ns:iodef-2.0">toe</AssetID>
+                        <AssetID xmlns="urn:ietf:params:xml:ns:iodef-2.0">tic</AssetID>
+                        <AssetID xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</AssetID>
+                        <AssetID xmlns="urn:ietf:params:xml:ns:iodef-2.0">toe</AssetID>
+                    </System>
+                </Flow>
+                <Expectation xmlns="urn:ietf:params:xml:ns:iodef-2.0" action="training" ext-action="tic" severity="high" restriction="white" ext-restriction="tac" observable-id="Yjeaaaa">
+                    <StartTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</StartTime>
+                    <EndTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</EndTime>
+                </Expectation>
+                <Record xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                    <RecordData xmlns="urn:ietf:params:xml:ns:iodef-2.0" observable-id="nU7gozhkh">
+                        <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0" xml:lang="en" translation-id="tic">toe</Description>
+                        <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">This is description</Description>
+                        <Application xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <SoftwareReference xmlns="urn:ietf:params:xml:ns:iodef-2.0" spec-name="swid" ext-spec-name="toe" dtype="xml" ext-dtype="tic">
+                                <Value xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</Value>
+                            </SoftwareReference>
+                            <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://md3LW.XFX</URL>
+                            <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://ynxlm.3Q6l</URL>
+                        </Application>
+                        <RecordItem xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="toe" dtype="packet" meaning="tac" formatid="toe" restriction="need-to-know" observable-id="hwwwwww">tac</RecordItem>
+                        <FileData xmlns="urn:ietf:params:xml:ns:iodef-2.0" restriction="need-to-know">
+                            <File xmlns="urn:ietf:params:xml:ns:iodef-2.0" observable-id="MZssdfdsrf">
+                                <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://17H.6la</URL>
+                                <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://VG.DZ8zii</URL>
+                                <SignatureData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="WD7Dtweqwe"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#" Id="Cmh">
+                                            <CanonicalizationMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://rN7.P8jV">tac</CanonicalizationMethod>
+                                            <SignatureMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://lUzp1.bG">
+                                                <HMACOutputLength xmlns="http://www.w3.org/2000/09/xmldsig#">-614</HMACOutputLength>toe
+                                            </SignatureMethod>
+                                            <Reference xmlns="http://www.w3.org/2000/09/xmldsig#" URI="https://V0oR.Hlow">
+                                                <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://v.UQPdei">tic</DigestMethod>
+                                                <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</DigestValue>
+                                            </Reference>
+                                        </SignedInfo>
+                                        <SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</SignatureValue>
+                                        <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                                            <MgmtData xmlns="http://www.w3.org/2000/09/xmldsig#">tac</MgmtData>
+                                        </KeyInfo>
+                                        <Object xmlns="http://www.w3.org/2000/09/xmldsig#" Id="EFUsdsdsJ"></Object>
+                                        <Object xmlns="http://www.w3.org/2000/09/xmldsig#" MimeType="tac">tic</Object></Signature>
+                                </SignatureData>
+                                <AssociatedSoftware xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                    <SoftwareReference xmlns="urn:ietf:params:xml:ns:iodef-2.0" spec-name="swid" dtype="bytes">
+                                        <Value xmlns="urn:ietf:params:xml:ns:iodef-2.0">tac</Value>
+                                    </SoftwareReference>
+                                    <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://qG.ICxLD</URL>
+                                    <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">https://a.Zvm</URL>
+                                </AssociatedSoftware>
+                            </File>
+                        </FileData>
+                        <CertificateData xmlns="urn:ietf:params:xml:ns:iodef-2.0" ext-restriction="toe" observable-id="LndsdsdX">
+                            <Certificate xmlns="urn:ietf:params:xml:ns:iodef-2.0" observable-id="Z2sds9KD">
+                                <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#"><X509SubjectName xmlns="http://www.w3.org/2000/09/xmldsig#">tic</X509SubjectName></X509Data>
+                            </Certificate>
+                        </CertificateData>
+                    </RecordData>
+                </Record>
+            </EventData>
+        </EventData>
+        <IndicatorData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+            <Indicator xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <IndicatorID xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="csirt.example.com" version="1">G90823490</IndicatorID>
+                <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">C2 domains</Description>
+                <StartTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</StartTime>
+                <Observable xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                    <BulkObservable xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="ipv6-addr">
+                        <BulkObservableList xmlns="urn:ietf:params:xml:ns:iodef-2.0">kj290023j09r34.example.com</BulkObservableList>
+                    </BulkObservable>
+                </Observable>
+            </Indicator>
+        </IndicatorData>
+    </Incident>
+</IODEF-Document>

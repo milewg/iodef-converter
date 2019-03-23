@@ -1,0 +1,596 @@
+{
+    "version": "2.00",
+    "lang": "en",
+    "Incident": [
+        {
+            "purpose": "watch",
+            "restriction": "green",
+            "IncidentID": {
+                "id": "897923",
+                "name": "csirt.example.com"
+            },
+            "RelatedActivity": [
+                {
+                    "ThreatActor": [
+                        {
+                            "ThreatActorID": [
+                                "TA-12-AGGRESSIVE-BUTTERFLY"
+                            ],
+                            "Description": [
+                                "Aggressive Butterfly"
+                            ]
+                        }
+                    ],
+                    "Campaign": [
+                        {
+                            "CampaignID": [
+                                "C-2015-59405"
+                            ],
+                            "Description": [
+                                "Orange Giraffe"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "GenerationTime": "2015-10-02T11:18:00-05:00",
+            "Description": [
+                "Summarizes the Indicators of Compromise for the Orange Giraffe campaign of the Aggressive Butterfly crime gang."
+            ],
+            "Assessment": [
+                {
+                    "Impact": [
+                        {
+                            "BusinessImpact": {
+                                "type": "breach-proprietary"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Contact": [
+                {
+                    "role": "creator",
+                    "type": "organization",
+                    "ContactName": [
+                        "CSIRT for example.com"
+                    ],
+                    "Email": [
+                        {
+                            "EmailTo": "contact@csirt.example.com"
+                        }
+                    ],
+                    "Contact": [
+                        {
+                            "role": "creator",
+                            "type": "person",
+                            "restriction": "default",
+                            "ContactName": [
+                                "toe",
+                                {
+                                    "lang": "en",
+                                    "translation-id": "tac",
+                                    "value": "tic"
+                                }
+                            ],
+                            "RegistryHandle": [
+                                {
+                                    "handle": "toe",
+                                    "registry": "apnic",
+                                    "ext-registry": "tic"
+                                }
+                            ],
+                            "PostalAddress": [
+                                {
+                                    "type": "mailing",
+                                    "ext-type": "toe",
+                                    "PAddress": {
+                                        "lang": "en",
+                                        "translation-id": "tac",
+                                        "value": "tic"
+                                    }
+                                }
+                            ],
+                            "Email": [
+                                {
+                                    "type": "hotline",
+                                    "ext-type": "toe",
+                                    "EmailTo": "tic"
+                                }
+                            ],
+                            "Telephone": [
+                                {
+                                    "type": "ext-value",
+                                    "ext-type": "tic",
+                                    "TelephoneNumber": "tac"
+                                }
+                            ],
+                            "Timezone": "-01:49"
+                        }
+                    ]
+                }
+            ],
+            "EventData": [
+                {
+                    "restriction": "white",
+                    "observable-id": "wrt",
+                    "StartTime": "2015-10-02T11:18:00-05:00",
+                    "EndTime": "2015-10-02T11:18:00-05:00",
+                    "ReportTime": "2015-10-02T11:18:00-05:00",
+                    "System": [
+                        {
+                            "category": "ext-value",
+                            "interface": "toe",
+                            "spoofed": "no",
+                            "virtual": "yes",
+                            "Node": {
+                                "DomainData": [
+                                    {
+                                        "system-status": "ext-value",
+                                        "domain-status": "transferPending",
+                                        "observable-id": "GKMVXQ",
+                                        "Name": "tac",
+                                        "DateDomainWasChecked": "2015-10-02T11:18:00-05:00",
+                                        "RegistrationDate": "2015-10-02T11:18:00-05:00",
+                                        "ExpirationDate": "2015-10-02T11:18:00-05:00",
+                                        "RelatedDNS": [
+                                            {
+                                                "value": "toe",
+                                                "name": "tic",
+                                                "dtype": "winreg",
+                                                "meaning": "toe",
+                                                "formatid": "tic",
+                                                "restriction": "amber",
+                                                "observable-id": "Hdffdf"
+                                            }
+                                        ],
+                                        "NameServers": [
+                                            {
+                                                "Server": "toe",
+                                                "Address": [
+                                                    {
+                                                        "value": "tic",
+                                                        "category": "e-mail",
+                                                        "vlan-name": "toe",
+                                                        "vlan-num": 2048,
+                                                        "observable-id": "gz."
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Address": [
+                                    {
+                                        "value": "tic",
+                                        "category": "ipv4-net",
+                                        "vlan-name": "toe",
+                                        "vlan-num": 854,
+                                        "observable-id": "jxaasd"
+                                    }
+                                ],
+                                "PostalAddress": {
+                                    "type": "mailing",
+                                    "PAddress": {
+                                        "lang": "en",
+                                        "translation-id": "tic",
+                                        "value": "toe"
+                                    }
+                                },
+                                "Location": [
+                                    {
+                                        "lang": "en",
+                                        "translation-id": "toe",
+                                        "value": "tac"
+                                    }
+                                ]
+                            },
+                            "NodeRole": [
+                                {
+                                    "category": "application"
+                                }
+                            ],
+                            "Service": [
+                                {
+                                    "ip-protocol": 2711,
+                                    "observable-id": "Xdf",
+                                    "ServiceName": {
+                                        "IANAService": "tic"
+                                    },
+                                    "Port": 3250,
+                                    "Portlist": "995989-8492,947555-01,463-06451",
+                                    "ProtoCode": 47,
+                                    "ProtoType": 289,
+                                    "ProtoField": -629,
+                                    "EmailData": {
+                                        "observable-id": "wRetyhy",
+                                        "EmailTo": [
+                                            "tac",
+                                            "toe"
+                                        ],
+                                        "EmailFrom": "toe",
+                                        "EmailBody": "tic",
+                                        "EmailMessage": "tac",
+                                        "Signature": [
+                                            "PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgSWQ9ImZldmhqaGtrIj48U2lnbmVkSW5mbyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgSWQ9IlpqcnRyQzciPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPENhbm9uaWNhbGl6YXRpb25NZXRob2QgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIEFsZ29yaXRobT0iaHR0cHM6Ly8xa2xiNV8uYUJuIj48L0Nhbm9uaWNhbGl6YXRpb25NZXRob2Q+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8U2lnbmF0dXJlTWV0aG9kIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIiBBbGdvcml0aG09Imh0dHBzOi8vN29MLlNyb28iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxITUFDT3V0cHV0TGVuZ3RoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj4yMjAwPC9ITUFDT3V0cHV0TGVuZ3RoPnRhYwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9TaWduYXR1cmVNZXRob2Q+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UmVmZXJlbmNlIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIiBJZD0iZWNiYmYiIFVSST0iaHR0cHM6Ly82OURlLmFJbm81Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8RGlnZXN0TWV0aG9kIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIiBBbGdvcml0aG09Imh0dHBzOi8vZ05xVC5RMW45Ij48L0RpZ2VzdE1ldGhvZD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8RGlnZXN0VmFsdWUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPkIzZENtVGZCYUcraG0wdGJQdTM5T3c9PTwvRGlnZXN0VmFsdWU+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L1JlZmVyZW5jZT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxSZWZlcmVuY2UgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIFVSST0iaHR0cHM6Ly9oX3RJLndGbXhXayI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFRyYW5zZm9ybXMgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8VHJhbnNmb3JtIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIiBBbGdvcml0aG09Imh0dHBzOi8vMWxaLnB4Ij48L1RyYW5zZm9ybT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFRyYW5zZm9ybSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgQWxnb3JpdGhtPSJodHRwczovLzAyWVBVLlhMeFRxeSI+dG9lPC9UcmFuc2Zvcm0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9UcmFuc2Zvcm1zPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxEaWdlc3RNZXRob2QgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIEFsZ29yaXRobT0iaHR0cHM6Ly92NkwuZGZIZyI+PC9EaWdlc3RNZXRob2Q+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPERpZ2VzdFZhbHVlIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj5CM2RDbVRmQmFHK2htMHRiUHUzOU93PT08L0RpZ2VzdFZhbHVlPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9SZWZlcmVuY2U+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvU2lnbmVkSW5mbz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFNpZ25hdHVyZVZhbHVlIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj5CM2RDbVRmQmFHK2htMHRiUHUzOU93PT08L1NpZ25hdHVyZVZhbHVlPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8S2V5SW5mbyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WDUwOURhdGEgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxYNTA5Q1JMIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj5CM2RDbVRmQmFHK2htMHRiUHUzOU93PT08L1g1MDlDUkw+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L1g1MDlEYXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFg1MDlEYXRhIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WDUwOVN1YmplY3ROYW1lIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj50aWM8L1g1MDlTdWJqZWN0TmFtZT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvWDUwOURhdGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WDUwOURhdGEgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxYNTA5Q2VydGlmaWNhdGUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPkIzZENtVGZCYUcraG0wdGJQdTM5T3c9PTwvWDUwOUNlcnRpZmljYXRlPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9YNTA5RGF0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9LZXlJbmZvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8T2JqZWN0IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIiBFbmNvZGluZz0iaHR0cHM6Ly95NkNnTl8uVFc5cyI+PC9PYmplY3Q+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxPYmplY3QgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIElkPSJkYXNhYWEiIEVuY29kaW5nPSJodHRwczovLzN3aUYuRjRhIj50YWM8L09iamVjdD48L1NpZ25hdHVyZT4="
+                                        ]
+                                    }
+                                }
+                            ],
+                            "OperatingSystem": [
+                                {
+                                    "SoftwareReference": {
+                                        "value": "toe",
+                                        "spec-name": "swid",
+                                        "dtype": "real"
+                                    },
+                                    "URL": [
+                                        "https://UxROkA.10Zqu",
+                                        "https://kfng.m5_cUp"
+                                    ]
+                                }
+                            ],
+                            "AssetID": [
+                                "toe",
+                                "tic"
+                            ]
+                        }
+                    ],
+                    "Expectation": [
+                        {
+                            "action": "training",
+                            "ext-action": "tic",
+                            "severity": "high",
+                            "restriction": "white",
+                            "ext-restriction": "tac",
+                            "observable-id": "Yjevnnn",
+                            "StartTime": "2015-10-02T11:18:00-05:00",
+                            "EndTime": "2015-10-02T11:18:00-05:00"
+                        }
+                    ],
+                    "RecordData": [
+                        {
+                            "observable-id": "nU7gozass",
+                            "Description": [
+                                {
+                                    "lang": "en",
+                                    "translation-id": "tic",
+                                    "value": "toe"
+                                },
+                                "This is description"
+                            ],
+                            "Application": {
+                                "SoftwareReference": {
+                                    "value": "tac",
+                                    "spec-name": "swid",
+                                    "ext-spec-name": "toe",
+                                    "dtype": "xml",
+                                    "ext-dtype": "tic"
+                                },
+                                "URL": [
+                                    "https://md3LW.XFX",
+                                    "https://ynxlm.3Q6l"
+                                ]
+                            },
+                            "RecordItem": [
+                                {
+                                    "value": "tac",
+                                    "name": "toe",
+                                    "dtype": "packet",
+                                    "meaning": "tac",
+                                    "formatid": "toe",
+                                    "restriction": "need-to-know",
+                                    "observable-id": "hqqqqq"
+                                }
+                            ],
+                            "FileData": [
+                                {
+                                    "restriction": "need-to-know",
+                                    "File": [
+                                        {
+                                            "observable-id": "MZsass",
+                                            "URL": [
+                                                "https://17H.6la",
+                                                "https://VG.DZ8zii"
+                                            ],
+                                            "Signature": [
+                                                "PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgSWQ9IldEN0R0c2RkcyI+PFNpZ25lZEluZm8geG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIElkPSJDdmIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPENhbm9uaWNhbGl6YXRpb25NZXRob2QgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIEFsZ29yaXRobT0iaHR0cHM6Ly9yTjcuUDhqViI+dGFjPC9DYW5vbmljYWxpemF0aW9uTWV0aG9kPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFNpZ25hdHVyZU1ldGhvZCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgQWxnb3JpdGhtPSJodHRwczovL2xVenAxLmJHIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SE1BQ091dHB1dExlbmd0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+LTYxNDwvSE1BQ091dHB1dExlbmd0aD50b2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvU2lnbmF0dXJlTWV0aG9kPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFJlZmVyZW5jZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgVVJJPSJodHRwczovL1Ywb1IuSGxvdyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPERpZ2VzdE1ldGhvZCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgQWxnb3JpdGhtPSJodHRwczovL3YuVVFQZGVpIj50aWM8L0RpZ2VzdE1ldGhvZD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8RGlnZXN0VmFsdWUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPkIzZENtVGZCYUcraG0wdGJQdTM5T3c9PTwvRGlnZXN0VmFsdWU+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L1JlZmVyZW5jZT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxSZWZlcmVuY2UgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIFVSST0iaHR0cHM6Ly9oa0dOLktCIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8RGlnZXN0TWV0aG9kIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIiBBbGdvcml0aG09Imh0dHBzOi8vWVRudS5PMVBlIj48L0RpZ2VzdE1ldGhvZD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8RGlnZXN0VmFsdWUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPkIzZENtVGZCYUcraG0wdGJQdTM5T3c9PTwvRGlnZXN0VmFsdWU+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L1JlZmVyZW5jZT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9TaWduZWRJbmZvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8U2lnbmF0dXJlVmFsdWUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPkIzZENtVGZCYUcraG0wdGJQdTM5T3c9PTwvU2lnbmF0dXJlVmFsdWU+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxLZXlJbmZvIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxNZ210RGF0YSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+dGFjPC9NZ210RGF0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9LZXlJbmZvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8T2JqZWN0IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIiBJZD0iRUZVZHNkc2RzSiI+PC9PYmplY3Q+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxPYmplY3QgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIE1pbWVUeXBlPSJ0YWMiPnRpYzwvT2JqZWN0PjwvU2lnbmF0dXJlPg=="
+                                            ],
+                                            "AssociatedSoftware": {
+                                                "SoftwareReference": {
+                                                    "value": "tac",
+                                                    "spec-name": "swid",
+                                                    "dtype": "bytes"
+                                                },
+                                                "URL": [
+                                                    "https://qG.ICxLD",
+                                                    "https://a.Zvm"
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "CertificateData": [
+                                {
+                                    "ext-restriction": "toe",
+                                    "observable-id": "LsdsdnX",
+                                    "Certificate": [
+                                        {
+                                            "observable-id": "Z29KdsdsD",
+                                            "X509Data": "PFg1MDlEYXRhIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj48WDUwOVN1YmplY3ROYW1lIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj50aWM8L1g1MDlTdWJqZWN0TmFtZT48L1g1MDlEYXRhPg=="
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ext-restriction": "tac",
+                                    "Certificate": [
+                                        {
+                                            "observable-id": "li",
+                                            "X509Data": "PFg1MDlEYXRhIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj48WDUwOUNSTCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+QjNkQ21UZkJhRytobTB0YlB1MzlPdz09PC9YNTA5Q1JMPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxYNTA5SXNzdWVyU2VyaWFsIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFg1MDlJc3N1ZXJOYW1lIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj50b2U8L1g1MDlJc3N1ZXJOYW1lPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WDUwOVNlcmlhbE51bWJlciB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+LTQxPC9YNTA5U2VyaWFsTnVtYmVyPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvWDUwOUlzc3VlclNlcmlhbD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WDUwOUNlcnRpZmljYXRlIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj5CM2RDbVRmQmFHK2htMHRiUHUzOU93PT08L1g1MDlDZXJ0aWZpY2F0ZT48L1g1MDlEYXRhPg=="
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "EventData": [
+                        {
+                            "restriction": "white",
+                            "observable-id": "wqw",
+                            "StartTime": "2015-10-02T11:18:00-05:00",
+                            "EndTime": "2015-10-02T11:18:00-05:00",
+                            "ReportTime": "2015-10-02T11:18:00-05:00",
+                            "System": [
+                                {
+                                    "category": "ext-value",
+                                    "interface": "toe",
+                                    "spoofed": "no",
+                                    "virtual": "yes",
+                                    "ownership": "unknown",
+                                    "restriction": "default",
+                                    "observable-id": "Cbn",
+                                    "Node": {
+                                        "Address": [
+                                            {
+                                                "value": "tic",
+                                                "category": "ipv4-net",
+                                                "vlan-name": "toe",
+                                                "vlan-num": 854,
+                                                "observable-id": "jxadf"
+                                            }
+                                        ],
+                                        "PostalAddress": {
+                                            "type": "mailing",
+                                            "PAddress": {
+                                                "lang": "en",
+                                                "translation-id": "tic",
+                                                "value": "toe"
+                                            }
+                                        }
+                                    },
+                                    "NodeRole": [
+                                        {
+                                            "category": "application"
+                                        }
+                                    ],
+                                    "Service": [
+                                        {
+                                            "ip-protocol": 2711,
+                                            "observable-id": "Xass",
+                                            "ServiceName": {
+                                                "IANAService": "tic"
+                                            },
+                                            "Port": 3250,
+                                            "Portlist": "995989-8492,947555-01,463-06451",
+                                            "ProtoCode": 47,
+                                            "ProtoType": 289,
+                                            "ProtoField": -629,
+                                            "ApplicationHeaderField": [
+                                                {
+                                                    "value": "tac",
+                                                    "name": "toe",
+                                                    "dtype": "url",
+                                                    "meaning": "tac",
+                                                    "formatid": "toe",
+                                                    "restriction": "green",
+                                                    "observable-id": "vVC"
+                                                }
+                                            ],
+                                            "EmailData": {
+                                                "observable-id": "wRyjh",
+                                                "EmailTo": [
+                                                    "tac",
+                                                    "toe"
+                                                ],
+                                                "EmailFrom": "toe",
+                                                "EmailBody": "tic",
+                                                "EmailMessage": "tac",
+                                                "HashData": [
+                                                    {
+                                                        "scope": "file-pe-resource",
+                                                        "Hash": [
+                                                            {
+                                                                "DigestMethod": "PERpZ2VzdE1ldGhvZCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgQWxnb3JpdGhtPSJodHRwOi8vd3d3Lm5pY3QuZ28uanAiPnRpYzwvRGlnZXN0TWV0aG9kPg==",
+                                                                "DigestValue": "B3dCmTfBaG+hm0tbPu39Ow==",
+                                                                "CanonicalizationMethod": "PENhbm9uaWNhbGl6YXRpb25NZXRob2QgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIEFsZ29yaXRobT0iaHR0cDovL3d3dy5uaWN0LmdvLmpwIj50YWM8L0Nhbm9uaWNhbGl6YXRpb25NZXRob2Q+"
+                                                            },
+                                                            {
+                                                                "DigestMethod": "PERpZ2VzdE1ldGhvZCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgQWxnb3JpdGhtPSJodHRwOi8vd3d3Lm5pY3QuZ28uanAiPnRpYzwvRGlnZXN0TWV0aG9kPg==",
+                                                                "DigestValue": "B3dCmTfBaG+hm0tbPu39Ow=="
+                                                            }
+                                                        ],
+                                                        "FuzzyHash": [
+                                                            {
+                                                                "FuzzyHashValue": [
+                                                                    {
+                                                                        "value": "tac",
+                                                                        "name": "toe",
+                                                                        "dtype": "csv",
+                                                                        "meaning": "tac",
+                                                                        "formatid": "toe",
+                                                                        "restriction": "white",
+                                                                        "observable-id": "ZkPc"
+                                                                    }
+                                                                ],
+                                                                "Application": {
+                                                                    "SoftwareReference": {
+                                                                        "value": "tac",
+                                                                        "spec-name": "swid",
+                                                                        "ext-spec-name": "toe",
+                                                                        "dtype": "string",
+                                                                        "ext-dtype": "tic"
+                                                                    },
+                                                                    "URL": [
+                                                                        "https://k.V",
+                                                                        "https://sx.W"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "Signature": [
+                                                    "PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgSWQ9ImZldmdoZ2oiPjxTaWduZWRJbmZvIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIiBJZD0iWmp2YmJDNyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPENhbm9uaWNhbGl6YXRpb25NZXRob2QgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIEFsZ29yaXRobT0iaHR0cHM6Ly8xa2xiNV8uYUJuIj48L0Nhbm9uaWNhbGl6YXRpb25NZXRob2Q+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFNpZ25hdHVyZU1ldGhvZCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgQWxnb3JpdGhtPSJodHRwczovLzdvTC5Tcm9vIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEhNQUNPdXRwdXRMZW5ndGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPjIyMDA8L0hNQUNPdXRwdXRMZW5ndGg+dGFjCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9TaWduYXR1cmVNZXRob2Q+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFJlZmVyZW5jZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgSWQ9ImV4enh4IiBVUkk9Imh0dHBzOi8vNjlEZS5hSW5vNSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxEaWdlc3RNZXRob2QgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIEFsZ29yaXRobT0iaHR0cHM6Ly9nTnFULlExbjkiPjwvRGlnZXN0TWV0aG9kPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8RGlnZXN0VmFsdWUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPkIzZENtVGZCYUcraG0wdGJQdTM5T3c9PTwvRGlnZXN0VmFsdWU+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9SZWZlcmVuY2U+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFJlZmVyZW5jZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgVVJJPSJodHRwczovL2hfdEkud0ZteFdrIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFRyYW5zZm9ybXMgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFRyYW5zZm9ybSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgQWxnb3JpdGhtPSJodHRwczovLzFsWi5weCI+PC9UcmFuc2Zvcm0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8VHJhbnNmb3JtIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIiBBbGdvcml0aG09Imh0dHBzOi8vMDJZUFUuWEx4VHF5Ij50b2U8L1RyYW5zZm9ybT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxUcmFuc2Zvcm0geG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIEFsZ29yaXRobT0iaHR0cHM6Ly9nZEsuc1hFTCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFhQYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj50aWM8L1hQYXRoPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxYUGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+dGFjPC9YUGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvVHJhbnNmb3JtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFRyYW5zZm9ybSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgQWxnb3JpdGhtPSJodHRwczovL3l1T1gzLl9sdmZLbyI+dGFjPC9UcmFuc2Zvcm0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvVHJhbnNmb3Jtcz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPERpZ2VzdE1ldGhvZCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgQWxnb3JpdGhtPSJodHRwczovL3Y2TC5kZkhnIj48L0RpZ2VzdE1ldGhvZD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPERpZ2VzdFZhbHVlIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj5CM2RDbVRmQmFHK2htMHRiUHUzOU93PT08L0RpZ2VzdFZhbHVlPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvUmVmZXJlbmNlPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9TaWduZWRJbmZvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFNpZ25hdHVyZVZhbHVlIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj5CM2RDbVRmQmFHK2htMHRiUHUzOU93PT08L1NpZ25hdHVyZVZhbHVlPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEtleUluZm8geG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxYNTA5RGF0YSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxYNTA5U0tJIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj5CM2RDbVRmQmFHK2htMHRiUHUzOU93PT08L1g1MDlTS0k+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9YNTA5RGF0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WDUwOURhdGEgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WDUwOUNSTCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+QjNkQ21UZkJhRytobTB0YlB1MzlPdz09PC9YNTA5Q1JMPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvWDUwOURhdGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFg1MDlEYXRhIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFg1MDlTdWJqZWN0TmFtZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+dGljPC9YNTA5U3ViamVjdE5hbWU+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9YNTA5RGF0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WDUwOURhdGEgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8WDUwOUNlcnRpZmljYXRlIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj5CM2RDbVRmQmFHK2htMHRiUHUzOU93PT08L1g1MDlDZXJ0aWZpY2F0ZT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L1g1MDlEYXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9LZXlJbmZvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPE9iamVjdCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgRW5jb2Rpbmc9Imh0dHBzOi8veTZDZ05fLlRXOXMiPjwvT2JqZWN0PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPE9iamVjdCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgSWQ9ImRkc2ZkIiBFbmNvZGluZz0iaHR0cHM6Ly8zd2lGLkY0YSI+dGFjPC9PYmplY3Q+PC9TaWduYXR1cmU+"
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "OperatingSystem": [
+                                        {
+                                            "SoftwareReference": {
+                                                "value": "toe",
+                                                "spec-name": "swid",
+                                                "ext-spec-name": "tic",
+                                                "dtype": "real",
+                                                "ext-dtype": "tac"
+                                            },
+                                            "URL": [
+                                                "https://UxROkA.10Zqu",
+                                                "https://kfng.m5_cUp"
+                                            ]
+                                        }
+                                    ],
+                                    "AssetID": [
+                                        "toe",
+                                        "tic",
+                                        "tac",
+                                        "toe"
+                                    ]
+                                }
+                            ],
+                            "Expectation": [
+                                {
+                                    "action": "training",
+                                    "ext-action": "tic",
+                                    "severity": "high",
+                                    "restriction": "white",
+                                    "ext-restriction": "tac",
+                                    "observable-id": "Yjeaaaa",
+                                    "StartTime": "2015-10-02T11:18:00-05:00",
+                                    "EndTime": "2015-10-02T11:18:00-05:00"
+                                }
+                            ],
+                            "RecordData": [
+                                {
+                                    "observable-id": "nU7gozhkh",
+                                    "Description": [
+                                        {
+                                            "lang": "en",
+                                            "translation-id": "tic",
+                                            "value": "toe"
+                                        },
+                                        "This is description"
+                                    ],
+                                    "Application": {
+                                        "SoftwareReference": {
+                                            "value": "tac",
+                                            "spec-name": "swid",
+                                            "ext-spec-name": "toe",
+                                            "dtype": "xml",
+                                            "ext-dtype": "tic"
+                                        },
+                                        "URL": [
+                                            "https://md3LW.XFX",
+                                            "https://ynxlm.3Q6l"
+                                        ]
+                                    },
+                                    "RecordItem": [
+                                        {
+                                            "value": "tac",
+                                            "name": "toe",
+                                            "dtype": "packet",
+                                            "meaning": "tac",
+                                            "formatid": "toe",
+                                            "restriction": "need-to-know",
+                                            "observable-id": "hwwwwww"
+                                        }
+                                    ],
+                                    "FileData": [
+                                        {
+                                            "restriction": "need-to-know",
+                                            "File": [
+                                                {
+                                                    "observable-id": "MZssdfdsrf",
+                                                    "URL": [
+                                                        "https://17H.6la",
+                                                        "https://VG.DZ8zii"
+                                                    ],
+                                                    "Signature": [
+                                                        "PFNpZ25hdHVyZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgSWQ9IldEN0R0d2Vxd2UiPjxTaWduZWRJbmZvIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIiBJZD0iQ21oIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Q2Fub25pY2FsaXphdGlvbk1ldGhvZCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgQWxnb3JpdGhtPSJodHRwczovL3JONy5QOGpWIj50YWM8L0Nhbm9uaWNhbGl6YXRpb25NZXRob2Q+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFNpZ25hdHVyZU1ldGhvZCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgQWxnb3JpdGhtPSJodHRwczovL2xVenAxLmJHIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEhNQUNPdXRwdXRMZW5ndGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPi02MTQ8L0hNQUNPdXRwdXRMZW5ndGg+dG9lCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9TaWduYXR1cmVNZXRob2Q+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFJlZmVyZW5jZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgVVJJPSJodHRwczovL1Ywb1IuSGxvdyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxEaWdlc3RNZXRob2QgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIEFsZ29yaXRobT0iaHR0cHM6Ly92LlVRUGRlaSI+dGljPC9EaWdlc3RNZXRob2Q+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxEaWdlc3RWYWx1ZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+QjNkQ21UZkJhRytobTB0YlB1MzlPdz09PC9EaWdlc3RWYWx1ZT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L1JlZmVyZW5jZT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvU2lnbmVkSW5mbz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxTaWduYXR1cmVWYWx1ZSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+QjNkQ21UZkJhRytobTB0YlB1MzlPdz09PC9TaWduYXR1cmVWYWx1ZT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxLZXlJbmZvIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8TWdtdERhdGEgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPnRhYzwvTWdtdERhdGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L0tleUluZm8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8T2JqZWN0IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIiBJZD0iRUZVc2RzZHNKIj48L09iamVjdD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxPYmplY3QgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiIE1pbWVUeXBlPSJ0YWMiPnRpYzwvT2JqZWN0PjwvU2lnbmF0dXJlPg=="
+                                                    ],
+                                                    "AssociatedSoftware": {
+                                                        "SoftwareReference": {
+                                                            "value": "tac",
+                                                            "spec-name": "swid",
+                                                            "dtype": "bytes"
+                                                        },
+                                                        "URL": [
+                                                            "https://qG.ICxLD",
+                                                            "https://a.Zvm"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "CertificateData": [
+                                        {
+                                            "ext-restriction": "toe",
+                                            "observable-id": "LndsdsdX",
+                                            "Certificate": [
+                                                {
+                                                    "observable-id": "Z2sds9KD",
+                                                    "X509Data": "PFg1MDlEYXRhIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj48WDUwOVN1YmplY3ROYW1lIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjIj50aWM8L1g1MDlTdWJqZWN0TmFtZT48L1g1MDlEYXRhPg=="
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Indicator": [
+                {
+                    "IndicatorID": {
+                        "id": "G90823490",
+                        "name": "csirt.example.com",
+                        "version": "1"
+                    },
+                    "Description": [
+                        "C2 domains"
+                    ],
+                    "StartTime": "2015-10-02T11:18:00-05:00",
+                    "Observable": {
+                        "BulkObservable": {
+                            "type": "ipv6-addr",
+                            "BulkObservableList": "kj290023j09r34.example.com"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

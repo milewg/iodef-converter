@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IODEF-Document xmlns="urn:ietf:params:xml:ns:iodef-2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.00" xml:lang="en" format-id="RFC7970-json">
+    <Incident xmlns="urn:ietf:params:xml:ns:iodef-2.0" purpose="watch" xml:lang="en" restriction="green">
+        <IncidentID xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="csirt.example.com">897923</IncidentID>
+        <RelatedActivity xmlns="urn:ietf:params:xml:ns:iodef-2.0" restriction="private">
+            <ThreatActor xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <ThreatActorID xmlns="urn:ietf:params:xml:ns:iodef-2.0">TA-12-AGGRESSIVE-BUTTERFLY</ThreatActorID>
+                <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">Aggressive Butterfly</Description>
+            </ThreatActor>
+            <Campaign xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <CampaignID xmlns="urn:ietf:params:xml:ns:iodef-2.0">C-2015-59405</CampaignID>
+                <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">Orange Giraffe</Description>
+            </Campaign>
+        </RelatedActivity>
+        <GenerationTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</GenerationTime>
+        <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">Summarizes the Indicators of Compromise for the Orange Giraffe campaign of the Aggressive Butterfly crime gang.</Description>
+        <Assessment xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+            <SystemImpact xmlns="urn:ietf:params:xml:ns:iodef-2.0" severity="low" type="unknown"></SystemImpact>
+            <BusinessImpact xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="breach-proprietary"></BusinessImpact>
+            <TimeImpact xmlns="urn:ietf:params:xml:ns:iodef-2.0" metric="elapsed">5</TimeImpact>
+            <MonetaryImpact xmlns="urn:ietf:params:xml:ns:iodef-2.0" currency="JPY">1e+07</MonetaryImpact>
+            <Counter xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="count" unit="packet">3</Counter>
+            <Confidence xmlns="urn:ietf:params:xml:ns:iodef-2.0" rating="medium">5</Confidence>
+        </Assessment>
+        <Method xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+            <Reference xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <URL xmlns="urn:ietf:params:xml:ns:iodef-2.0">http://www.nict.go.jp</URL>
+            </Reference>
+            <Vulnerability xmlns="urn:ietf:params:xml:ns:iodef-sci-1.0" SpecID="private">
+                <Reference xmlns="urn:ietf:params:xml:ns:iodef-1.0">
+                    <ReferenceName xmlns="urn:ietf:params:xml:ns:iodef-1.0"></ReferenceName>
+                    <URL xmlns="urn:ietf:params:xml:ns:iodef-1.0">http://www.nict.go.jp</URL>
+                </Reference>
+            </Vulnerability>
+        </Method>
+        <Contact xmlns="urn:ietf:params:xml:ns:iodef-2.0" role="creator" type="organization">
+            <ContactName xmlns="urn:ietf:params:xml:ns:iodef-2.0">CSIRT for example.com</ContactName>
+            <RegistryHandle xmlns="urn:ietf:params:xml:ns:iodef-2.0" registry="apnic">MyAPNIC</RegistryHandle>
+            <PostalAddress xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="mailing">
+                <PAddress xmlns="urn:ietf:params:xml:ns:iodef-2.0">184-8795</PAddress>
+                <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">4-2-1 Nukui-Kitamachi Koganei Tokyo, Japan</Description>
+            </PostalAddress>
+            <Email xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <EmailTo xmlns="urn:ietf:params:xml:ns:iodef-2.0">contact@csirt.example.com</EmailTo>
+            </Email>
+            <Telephone xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <TelephoneNumber xmlns="urn:ietf:params:xml:ns:iodef-2.0">+81423275862</TelephoneNumber>
+            </Telephone>
+        </Contact>
+        <EventData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+            <ReportTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</ReportTime>
+            <Flow xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <System xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="source">
+                    <Node xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                        <DomainData xmlns="urn:ietf:params:xml:ns:iodef-2.0" system-status="innocent-hacked" domain-status="assignedAndInactive">
+                            <Name xmlns="urn:ietf:params:xml:ns:iodef-2.0">temp1.nict.go.jp</Name>
+                            <Nameservers xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                <Server xmlns="urn:ietf:params:xml:ns:iodef-2.0">vgw.nict.go.jp</Server>
+                                <Address xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="ipv4-addr">133.243.18.5</Address>
+                            </Nameservers>
+                            <DomainContacts xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                <Contact xmlns="urn:ietf:params:xml:ns:iodef-2.0" role="user" type="organization"></Contact>
+                            </DomainContacts>
+                        </DomainData>
+                        <Address xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="ipv4-addr">192.228.139.118</Address>
+                        <Location xmlns="urn:ietf:params:xml:ns:iodef-2.0">OrgID=7</Location>
+                    </Node>
+                    <NodeRole xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="client"></NodeRole>
+                    <Service xmlns="urn:ietf:params:xml:ns:iodef-2.0" ip-protocol="6">
+                        <ServiceName xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">It seems to be a scan from an infected machine.</Description>
+                        </ServiceName>
+                        <Port xmlns="urn:ietf:params:xml:ns:iodef-2.0">49183</Port>
+                        <ApplicationHeader xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <ApplicationHeaderField xmlns="urn:ietf:params:xml:ns:iodef-2.0" dtype="boolean">text</ApplicationHeaderField>
+                        </ApplicationHeader>
+                        <EmailData xmlns="urn:ietf:params:xml:ns:iodef-2.0"></EmailData>
+                    </Service>
+                </System>
+            </Flow>
+            <Expectation xmlns="urn:ietf:params:xml:ns:iodef-2.0" action="investigate"></Expectation>
+            <Record xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <RecordData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                    <RecordPattern xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="regex">[0-9][A-Z]</RecordPattern>
+                    <RecordItem xmlns="urn:ietf:params:xml:ns:iodef-2.0" dtype="boolean">text</RecordItem>
+                    <FileData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                        <File xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <FileName xmlns="urn:ietf:params:xml:ns:iodef-2.0">dummy.exe</FileName>
+                            <HashData xmlns="urn:ietf:params:xml:ns:iodef-2.0" scope="file-contents">
+                                <Hash xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                    <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.nict.go.jp">tic</DigestMethod>
+                                    <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">XA==</DigestValue>
+                                </Hash>
+                                <FuzzyHash xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                    <FuzzyHashValue xmlns="urn:ietf:params:xml:ns:iodef-2.0" dtype="boolean">text</FuzzyHashValue>
+                                </FuzzyHash>
+                            </HashData>
+                            <SignatureData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                                <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#" Id="C">
+                                        <CanonicalizationMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://rN7.P8jV">
+                                            <EmailTo xmlns="urn:ietf:params:xml:ns:iodef-2.0">contact@csirt.example.com</EmailTo></CanonicalizationMethod>
+                                        <SignatureMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://lUzp1.bG">
+                                            <HMACOutputLength xmlns="http://www.w3.org/2000/09/xmldsig#">-614</HMACOutputLength>
+                                            <EmailTo xmlns="urn:ietf:params:xml:ns:iodef-2.0">contact@csirt.example.com</EmailTo>
+                                        </SignatureMethod>
+                                        <Reference xmlns="http://www.w3.org/2000/09/xmldsig#" URI="https://V0oR.Hlow">
+                                            <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://v.UQPdei">tic</DigestMethod>
+                                            <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</DigestValue>
+                                        </Reference>
+                                        <Reference xmlns="http://www.w3.org/2000/09/xmldsig#" URI="https://hkGN.KB">
+                                            <DigestMethod xmlns="http://www.w3.org/2000/09/xmldsig#" Algorithm="https://YTnu.O1Pe"></DigestMethod>
+                                            <DigestValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</DigestValue>
+                                        </Reference>
+                                    </SignedInfo>
+                                    <SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">B3dCmTfBaG+hm0tbPu39Ow==</SignatureValue></Signature>
+                            </SignatureData>
+                        </File>
+                    </FileData>
+                    <WindowsRegistryKeysModified xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                        <Key xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <KeyName xmlns="urn:ietf:params:xml:ns:iodef-2.0">HKEY_LOCAL_MACHINExxxxxxx</KeyName>
+                            <KeyValue xmlns="urn:ietf:params:xml:ns:iodef-2.0">xxxxxxxxxxxxxxxxxxxxxxx</KeyValue>
+                        </Key>
+                    </WindowsRegistryKeysModified>
+                    <CertificateData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                        <Certificate xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#"><X509SKI xmlns="http://www.w3.org/2000/09/xmldsig#">ICA8WDUwOURhdGE+IDwhLS0gdHdvIHBvaW50ZXJzIHRvIGNlcnRpZmljYXRlLUEgLS0+CiAgICA8WDUwOUlzc3VlclNlcmlhbD4gCiAgICAgIDxYNTA5SXNzdWVyTmFtZT4KICAgICAgICBDTj1UQU1VUkEgS2VudCwgT1U9VFJMLCBPPUlCTSwgTD1ZYW1hdG8tc2hpLCBTVD1LYW5hZ2F3YSwgQz1KUAogICAgICA8L1g1MDlJc3N1ZXJOYW1lPgogICAgICA8WDUwOVNlcmlhbE51bWJlcj4xMjM0NTY3ODwvWDUwOVNlcmlhbE51bWJlcj4KICAgIDwvWDUwOUlzc3VlclNlcmlhbD4KICAgIDxYNTA5U0tJPjMxZDk3YmQ3PC9YNTA5U0tJPiAKICA8L1g1MDlEYXRhPgogIDxYNTA5RGF0YT48IS0tIHNpbmdsZSBwb2ludGVyIHRvIGNlcnRpZmljYXRlLUIgLS0+CiAgICA8WDUwOVN1YmplY3ROYW1lPlN1YmplY3Qgb2YgQ2VydGlmaWNhdGUgQjwvWDUwOVN1YmplY3ROYW1lPgogIDwvWDUwOURhdGE+CiAgPFg1MDlEYXRhPiA8IS0tIGNlcnRpZmljYXRlIGNoYWluIC0tPgogICAgPCEtLVNpZ25lciBjZXJ0LCBpc3N1ZXIgQ049YXJib2xDQSxPVT1GVlQsTz1JQk0sQz1VUywgc2VyaWFsIDQtLT4KICAgIDxYNTA5Q2VydGlmaWNhdGU+TUlJQ1hUQ0NBLi48L1g1MDlDZXJ0aWZpY2F0ZT4KICAgIDwhLS0gSW50ZXJtZWRpYXRlIGNlcnQgc3ViamVjdCBDTj1hcmJvbENBLE9VPUZWVCxPPUlCTSxDPVVTIAogICAgICAgICBpc3N1ZXIgQ049dG9vdGlzZUNBLE9VPUZWVCxPPUJyaWRnZXBvaW50LEM9VVMgLS0+CiAgICA8WDUwOUNlcnRpZmljYXRlPk1JSUNQekNDQS4uLjwvWDUwOUNlcnRpZmljYXRlPgogICAgPCEtLSBSb290IGNlcnQgc3ViamVjdCBDTj10b290aXNlQ0EsT1U9RlZULE89QnJpZGdlcG9pbnQsQz1VUyAtLT4KICAgIDxYNTA5Q2VydGlmaWNhdGU+TUlJQ1NUQ0NBLi4uPC9YNTA5Q2VydGlmaWNhdGU+CiAgPC9YNTA5RGF0YT4=</X509SKI></X509Data>
+                        </Certificate>
+                    </CertificateData>
+                </RecordData>
+            </Record>
+            <EventData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <ReportTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2016-06-01T18:05:24-02:00</ReportTime>
+                <Discovery xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                    <DetectionPattern xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                        <Application xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">Microsoft Win</Description>
+                        </Application>
+                        <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0" xml:lang="en" translation-id="dgtic">toe</Description>
+                    </DetectionPattern>
+                </Discovery>
+                <Flow xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                    <System xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="target">
+                        <Node xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <Address xmlns="urn:ietf:params:xml:ns:iodef-2.0" category="ipv4-addr">192.228.139.118</Address>
+                        </Node>
+                        <Service xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                            <Port xmlns="urn:ietf:params:xml:ns:iodef-2.0">23</Port>
+                        </Service>
+                    </System>
+                </Flow>
+            </EventData>
+        </EventData>
+        <IndicatorData xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+            <Indicator xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                <IndicatorID xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="csirt.example.com" version="1">G90823490</IndicatorID>
+                <AlternativeIndicatorID xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                    <IndicatorID xmlns="urn:ietf:params:xml:ns:iodef-2.0" name="csirt.example.com" version="1">TR11041996</IndicatorID>
+                </AlternativeIndicatorID>
+                <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">C2 domains</Description>
+                <StartTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2014-12-02T11:18:00-05:00</StartTime>
+                <Observable xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                    <BulkObservable xmlns="urn:ietf:params:xml:ns:iodef-2.0" type="ext-value" ext-type="fqdn">
+                        <BulkObservableList xmlns="urn:ietf:params:xml:ns:iodef-2.0">kj290023j09r34.example.com</BulkObservableList>
+                    </BulkObservable>
+                </Observable>
+                <AttackPhase xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+                    <Description xmlns="urn:ietf:params:xml:ns:iodef-2.0">Currently, the infected host is scanning arbitrary hosts to find next targets.</Description>
+                </AttackPhase>
+            </Indicator>
+        </IndicatorData>
+        <History xmlns="urn:ietf:params:xml:ns:iodef-2.0">
+            <HistoryItem xmlns="urn:ietf:params:xml:ns:iodef-2.0" action="investigate">
+                <DateTime xmlns="urn:ietf:params:xml:ns:iodef-2.0">2015-10-02T11:18:00-05:00</DateTime>
+            </HistoryItem>
+        </History>
+    </Incident>
+</IODEF-Document>
